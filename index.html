@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Spotify</title>
+    <link rel="icon" sizes="32x32" type="image/png" href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png">
     <link rel="shortcut icon" href="./src/assets/icons/favicon.png" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css2?family=Alice&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Dancing+Script:wght@400;500;600;700&family=Oranienbaum&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
     
@@ -50,7 +51,54 @@
                 </li>
             </ul>
         </nav>
+
+        <div class="sidebar__library">
+            <div class="library__content">
+                <button>
+                    <span class="fa fas fa-book"></span>
+                    <span>Minha Biblioteca</span>
+                </button>
+                <button>
+                    <span class="fa fa-plus"></span>
+                </button>
+            </div>
+            
+            <div class="library__actions">
+                <span class="text title">Crie sua primeira playlist</span>
+                <span class="text subtitle">É muito fácil, nós iremos ajudar!</span>
+                <button class="btn">Criar playlist</button>
+            </div>
+            <div class="library__actions">
+                <span class="text title">Encontre alguns podcasts para seguir</span>
+                <span class="text subtitle">Nós iremos manter os episódios atualizados</span>
+                <button class="btn">Encontre podcasts</button>
+            </div>
+
+            <div class="cookies">
+                <a href="#">
+                    Cookies
+                </a>
+            </div>
+
+            <div class="languages">
+                <button class="languages__btn">
+                    <span class="fa fa-globe"></span>
+                    <span>Português <small>(Brasil)</small></span>
+                </button>
+            </div>
+        </div>
     </section>
+
+    <footer class="footer">
+        <div class="footer__content">
+            <div>
+                <span class="title">Prévia do Spotify</span>
+                <span class="subtitle">Faça o login para ouvir músicas e podcasts ilimitados com anúncios ocasionais. Não precisa de cartão de crédito.</span>
+            </div>
+            
+            <button class="footer__content__btn">Login grátis</button>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
