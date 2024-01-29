@@ -26,6 +26,13 @@ class LocalStorageHandler {
         const storageData = JSON.parse(localStorage.getItem(this.localStorageKey));
         if (storageData) {
             this.dataUpdateDOM(storageData);
+        } else {
+            fetch(this.apiUrl)
+                .then(response => response.json())
+                .then(data => {
+                    this.targetElement.innerHTML = '';
+                    this.dataUpdateDOM(data);
+            })
         }
     }
 
