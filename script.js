@@ -1,0 +1,29 @@
+import LocalStorageHandler from './LocalStorageHandler.js'; // Adicionamos a extensão .js
+
+const input = document.querySelector('#search');
+const cards = document.querySelector('.cards');
+const home = document.querySelector('#home');
+const linkSearch = document.querySelector('#searchLink')
+
+const API_URL = 'http://localhost:3000/artists';
+const LOCAL_STORAGE_KEY = 'artists';
+
+const localStorageHandler = new LocalStorageHandler(API_URL, LOCAL_STORAGE_KEY, cards);
+
+home.addEventListener('click', () => {
+    localStorageHandler.fetchFromLocalStorage();
+});
+linkSearch.addEventListener('click', () => {
+    input.focus();
+})
+
+input.addEventListener('input', () => {
+    const inputValue = input.value.trim();
+    if (inputValue === '') {
+        localStorageHandler.fetchFromLocalStorage();
+    } else {
+        localStorageHandler.fetchSearch(inputValue);
+    }
+});
+
+localStorageHandler.fetchFromLocalStorage();
