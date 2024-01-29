@@ -1,0 +1,19 @@
+:root {
+    --font-dm-sans: "DM Sans", sans-serif;
+
+    --font-sm: 10px;
+    --font-md: 12px;
+    --font-lg: 14px;
+    --font-xl: 16px;
+    --font-title: 24px;
+    
+    --black: #000;
+    --white: #fff;
+
+    --bg-dark: #121212;
+    --bg-darkgray: #242424;
+
+    --color-darkgray: #b3b3b3;
+
+    --width-sm: 560px;
+}

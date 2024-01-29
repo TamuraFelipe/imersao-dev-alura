@@ -1,0 +1,29 @@
+@import './variables.css';
+
+@import './sidebar.css';
+@import './main-container.css';
+@import './footer.css';
+@import './buttons.css';
+@import './scroll-bar.css';
+
+@import './media-queries.css';
+
+@import './keyframes.css';
+
+body {
+    background-color: var(--black);
+    font-family: var(--font-dm-sans);
+    font-size: var(--font-lg);
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+}
+.hidden {
+    display: none!important;
+}
+@media(max-width: 560px){
+    .grid-container {
+        grid-template-columns: 62px 1fr;
+    }
+}

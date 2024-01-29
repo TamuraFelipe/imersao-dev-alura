@@ -1,0 +1,116 @@
+.sidebar {
+    max-width: 280px;
+    padding: 8px 0 0 8px;
+    grid-column: 1 / 2;
+}
+.sidebar__nav {
+    background: var(--bg-dark);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 8px;
+}
+.sidebar__nav .logo img {
+    display: block;
+    width: 80px;
+}
+.sidebar__nav .nav {
+    margin-top: 10px;
+}
+.sidebar__nav .nav li {
+    padding: 12px 0;
+}
+.sidebar__nav .nav li a {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: var(--color-darkgray);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color .5s;
+}
+.sidebar__nav .nav li a:hover {
+    color: var(--white);
+}
+
+.sidebar__library {
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-dark);
+    border-radius: 8px;
+    padding: 4px 8px;
+    color: var(--color-darkgray);
+    font-weight: 600;
+}
+.sidebar__library .library__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.sidebar__library .library__content button {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    gap: 20px;
+    align-items: center;
+    color: var(--color-darkgray);
+    cursor: pointer; 
+    transition: color .5s;
+}
+.sidebar__library .library__content button svg path {
+    fill: var(--color-darkgray);
+    transition: fill .5s;
+}
+.sidebar__library .library__content button:hover,
+.sidebar__library .library__content button:hover svg path {
+    color: var(--white);
+    fill: var(--white);
+}
+.sidebar__library .library__actions {
+    background-color: var(--bg-darkgray);
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+}
+.sidebar__library .library__actions .text {
+    display: block;
+    color: var(--white);
+    margin-bottom: 14px;
+}
+.sidebar__library .library__actions .title {
+    font-weight: bold;
+    font-size: var(--font-xl);
+}
+.sidebar__library .library__actions .subtitle {
+    margin-bottom: 28px;
+    font-weight: 500;
+    font-size: var(--font-md);
+}
+.sidebar__library .cookies {
+    margin: 25px 20px;
+}
+.sidebar__library .cookies a {
+    color: var(--color-darkgray);
+    font-weight: 500;
+    font-size: var(--font-sm);
+    text-decoration: none;
+    transition: all .5s;
+}
+.sidebar__library .cookies a:hover {
+    text-decoration: underline;
+    color: var(--white);
+}
+.sidebar__library .languages__btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: transparent;
+    border: 1px solid var(--color-darkgray);
+    color: var(--white);
+    font-weight: bold;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 99999px;
+}
+

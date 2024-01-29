@@ -1,0 +1,26 @@
+/* Para navegadores WebKit (Chrome, Safari, etc.) */
+.main .main__content .main__content__cards .cards {
+    scrollbar-width: thin; /* Para navegadores que suportam a propriedade scrollbar-width */
+    scrollbar-color: #181818 var(--bg-dark); /* Cor da barra de rolagem e cor do fundo do trilho */
+}
+
+.main .main__content .main__content__cards .cards::-webkit-scrollbar {
+    width: 12px; /* Largura da barra de rolagem */
+}
+
+.main .main__content .main__content__cards .cards::-webkit-scrollbar-thumb {
+    background-color: #181818; /* Cor da barra de rolagem */
+    border-radius: 9999px;
+}
+
+.main .main__content .main__content__cards .cards::-webkit-scrollbar-track {
+    background-color: var(--bg-dark); /* Cor do fundo do trilho */
+}
+
+/* Para o Internet Explorer */
+.main .main__content .main__content__cards .cards {
+    scrollbar-base-color: #181818; /* Cor da barra de rolagem */
+    scrollbar-arrow-color: var(--bg-dark); /* Cor do botão de seta (caso haja) */
+    scrollbar-face-color: var(--bg-dark); /* Cor da caixa de rolagem */
+    scrollbar-track-color: var(--bg-dark); /* Cor do fundo do trilho */
+}

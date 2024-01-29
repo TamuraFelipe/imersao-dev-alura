@@ -1,0 +1,37 @@
+.btn {
+    padding: 8px 20px;
+    border-radius: 99999px;
+    background-color: var(--white);
+    color: var(--black);
+    font-weight: bold;
+    cursor: pointer;
+    white-space: nowrap;
+    width: auto; 
+}
+.btn:hover {
+    border: 1px solid var(--white);
+    margin-bottom: -2px;
+}
+.btn-link {
+    font-size: var(--font-xl);
+    color: var(--white);
+    font-weight: bold;
+    transition: all .5s;
+}
+.btn-link:hover {
+    text-decoration: underline;
+}
+.btn-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--black);
+}
+.btn-mobile {
+    color: var(--white);
+    display: none;
+}
+
