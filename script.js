@@ -12,6 +12,7 @@ const localStorageHandler = new LocalStorageHandler(API_URL, LOCAL_STORAGE_KEY, 
 
 home.addEventListener('click', () => {
     localStorageHandler.fetchFromLocalStorage();
+    input.value = '';
 });
 linkSearch.addEventListener('click', () => {
     input.focus();
