@@ -7,7 +7,7 @@ Este é um projeto inspirado no visual do Spotify, desenvolvido durante a Imers�
 
 ## Descrição
 
-O projeto consiste em um clone do Spotify, utilizando React para componentizar a aplicação front-end. O objetivo é criar uma interface semelhante ao Spotify, onde é possível visualizar artistas e suas informações.
+O projeto consiste em um clone do Spotify, utilizando HTML, CSS e JS a aplicação front-end. O objetivo é criar uma interface semelhante ao Spotify, onde é possível visualizar artistas e suas informações.
 
 ## Funcionalidades
 
