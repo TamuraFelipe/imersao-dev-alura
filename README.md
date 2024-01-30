@@ -17,17 +17,21 @@ O projeto consiste em um clone do Spotify, utilizando React para componentizar a
 
 ## Tecnologias utilizadas
 
-- React
 - HTML
 - CSS
 - JavaScript
 
+## Link do projeto
+
+[Clique aqui para visitar o Google](https://imersao-dev-alura.netlify.app/)
+
 ## Como executar o projeto
 
 1. Clone este repositório
-2. Instale as dependências do projeto utilizando o comando `npm install`
-3. Execute o projeto com o comando `npm start`
-4. Acesse o projeto no navegador através do endereço `http://localhost:3000`
+2. Instale o json-server com o comando `npm i json-server`
+3. Abra o projeto no VSCode
+4. No terminal do VSCode, inicie o json-server com o comando `json-server --watch api-artists/artists.json` 
+5. Inicie o index.html com o live server
 
 ## Autor
 
