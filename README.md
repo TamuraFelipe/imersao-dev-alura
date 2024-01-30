@@ -23,7 +23,7 @@ O projeto consiste em um clone do Spotify, utilizando HTML, CSS e JS a aplica√ß√
 
 ## Link do projeto
 
-[Clique aqui para visitar o Google](https://imersao-dev-alura.netlify.app/)
+[Clique aqui para visitar o projeto!](https://imersao-dev-alura.netlify.app/)
 
 ## Como executar o projeto
 
