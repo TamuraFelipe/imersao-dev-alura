@@ -5,7 +5,7 @@ const cards = document.querySelector('.cards');
 const home = document.querySelector('#home');
 const linkSearch = document.querySelector('#searchLink')
 
-const API_URL = 'http://localhost:3000/artists';
+const API_URL = 'https://my-json-server.typicode.com/tamurafelipe/jsonfake/artists';
 const LOCAL_STORAGE_KEY = 'artists';
 
 const localStorageHandler = new LocalStorageHandler(API_URL, LOCAL_STORAGE_KEY, cards);
