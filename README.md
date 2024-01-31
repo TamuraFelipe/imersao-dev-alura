@@ -7,7 +7,7 @@ Este é um projeto inspirado no visual do Spotify, desenvolvido durante a Imers�
 
 ## Descrição
 
-O projeto consiste em um clone do Spotify, utilizando HTML, CSS e JS a aplicação front-end. O objetivo é criar uma interface semelhante ao Spotify, onde é possível visualizar artistas e suas informações.
+O projeto consiste em um clone do Spotify, utilizando HTML, CSS e JS a aplicação front-end. O objetivo é criar uma interface semelhante ao Spotify, onde é possível visualizar artistas e suas informações. Utilizei o [My Json Server](https://my-json-server.typicode.com/), permitindo que a aplicação continue realizando as requisições após o deploy, que foi feito na [netlify](https://www.netlify.com/). 
 
 ## Funcionalidades
 
@@ -20,6 +20,7 @@ O projeto consiste em um clone do Spotify, utilizando HTML, CSS e JS a aplicaç�
 - HTML
 - CSS
 - JavaScript
+- LocalStorage 
 
 ## Link do projeto
 
