@@ -38,6 +38,3 @@ O projeto consiste em um clone do Spotify, utilizando HTML, CSS e JS a aplicaç�
 
 Felipe Diego Tamura
 
-## Licença
-
-Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais informações.# Spotify Clone
