@@ -1,6 +1,6 @@
 # Spotify Clone
 
-Este é um projeto inspirado no visual do Spotify, desenvolvido durante a Imersão Front-End da Alura.
+Este é um projeto inspirado no visual do Spotify, desenvolvido durante a #ImersãoFrontEnd da #Alura.
 
 ## Preview
 ![Preview](./src/assets/preview-pag.png)
